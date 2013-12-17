@@ -1,0 +1,88 @@
+/* Card Interface */
+
+ul.now {
+    height: 100%;
+    float: left;
+    padding: 0;
+    /* min-width:100%; */
+}
+ul.now li {
+    float: left;
+    list-style: none;
+    margin:0;
+    /*padding: 10px;*/
+    /* Fix for Android width */
+    min-width:94.3%;
+}
+
+.card {
+  padding:1.5rem;
+  box-shadow:0 1px 2px #aaa;
+  background:white;
+  margin:0rem 0.7rem 0.7rem 0.7rem;
+  border-radius:3px;
+}
+
+    div.card p {
+        margin: 0 0 15px 0;
+    }
+    div.card p.card-title {
+        font-size: 28px;
+    }
+    div.card p.url {
+        border-top: 1px solid #e5e5e5;
+        background-repeat: no-repeat;
+        padding: 6px 0 0 30px;
+        height: 30px;
+        display: block;
+        margin-bottom: -10px;
+    }
+    div.card p.url a {
+        color: #04bff4;
+        text-decoration: none;
+        top: 4px;
+        display: block;
+        position: relative;
+    }
+    div.card img.full {
+    width: 100%;
+    /* margin: 0 0 15px -15px; */
+    }
+
+.boxclose{
+    float:right;
+    margin-top:-25px;
+    margin-right:-10px;
+    color: #d5d5d5;
+    font-size: 25px;
+    padding: 11px 3px;
+}
+
+.hide {
+    overflow: hidden;
+    max-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    -moz-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -moz-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    -webkit-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    -o-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+.show {
+    -moz-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -moz-transition-timing-function: ease-in;
+    -webkit-transition-timing-function: ease-in;
+    -o-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+    max-height: 1000px;
+    overflow: hidden;
+}
